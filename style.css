@@ -1,0 +1,112 @@
+.container {
+    display: grid;
+    grid:
+    "sabrina amanda amanda paula"1fr
+    "catia teresa vanessa paula"200px
+    "catia alice bruna bruna"105px / 250px 250px 450px 250px;
+    grid-gap: 5px;
+}
+
+
+
+.item-1 {
+    grid-area: sabrina;
+    background-color: hsl(31, 66%, 93%);
+}
+
+.item-2 {
+    grid-area: amanda;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.item-3 {
+    grid-area: paula;
+    background-color: aquamarine;
+}
+
+.item-4 {
+    grid-area: catia;
+    background-color: red;
+}
+
+.item-5 {
+    grid-area: teresa;
+    background-color: chartreuse;
+}
+
+.item-6 {
+    grid-area: vanessa;
+    background-color: gold;
+}
+
+.item-7 {
+    grid-area: alice;
+    background-color: blue;
+}
+
+.item-8 {
+    grid-area: bruna;
+    background-color: cornflowerblue;
+}
+
+.item-1{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+i{
+    color: hsl(254, 88%, 90%);
+}
+.creat-post{
+    margin-top: 30px;
+    width: 150px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.item-2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.conteudo{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    width: 40%;
+}
+.ouro{
+    color: hsl(39, 100%, 71%);
+}
+
+
+/* .post {
+    width: 50%;
+}
+
+.audience {
+    width: 50%;
+} */
+
+/* .span{
+    color: hsl(254, 88%, 90%);
+} */
+/* .gold {
+    color: hsl(39, 100%, 71%);
+} */
+
+.item-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.consistent{
+    width: 50%;
+    bottom: 0px;
+}
