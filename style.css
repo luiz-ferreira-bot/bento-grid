@@ -12,7 +12,9 @@
 .item-1 {
     grid-area: sabrina;
     background-color: hsl(31, 66%, 93%);
+    
 }
+
 
 .item-2 {
     grid-area: amanda;
@@ -110,3 +112,33 @@ i{
     width: 50%;
     bottom: 0px;
 }
+
+.peso{
+    font-weight: 400;
+}
+
+.peso{
+    font-weight: 400;
+}
+
+.peso{
+    font-weight: 400;
+}
+/* ---------------------------------------- */
+.item-4{
+    background-color: hsl(39, 100%, 71%);
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    align-items: center;
+    padding: 30px;
+    gap: 45px;
+    line-height: 170%;
+}
+.using-ai{
+    width: 100%;
+}
+.ia{
+    font-weight: 400;
+}
+/* -------------------------------------------- */
